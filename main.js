@@ -22,7 +22,7 @@ buttonClass.innerText = profil1.bouton;
 imageClass.setAttribute("src", profil1.image);
 
 var profil2 = {
-    myname : "I am Anja Manuellah",
+    myname : "Je suis Anja Manuellah",
     paragraphe : "Je suis une jeune passionnée de l'informatique,<br> que ce soit créatif ou organisationnelle et de tous ce qui concerne le developpement web. <br> Je suis en formation chez Passion 4 Humanity <br> Je serais disponible à la fin de mon cursus chez TAFA 2.0",
     button : "Download CV",
     skills : "My skills",
