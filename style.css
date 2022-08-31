@@ -79,7 +79,7 @@ li{
 
 .progress-line span{
     height: 100%;
-    width: 80%;
+    width: 50%;
     background-color: #64ffda;
     position: absolute;
     border-radius: 10px;

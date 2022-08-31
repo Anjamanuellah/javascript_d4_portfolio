@@ -1,5 +1,5 @@
 var profil1 = {
-    image : "pop2.jpg",
+    image : "cat.png",
     pays : "Madagascar",
     tel : "0343650241",
     poste : "Developpeur Web",
