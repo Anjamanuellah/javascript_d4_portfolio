@@ -7,16 +7,23 @@
     margin-top: 10px;
     margin-left: 10px;
 }
-#pays_container {
-    margin-top: 20px;
-    margin-left: 20px;
-    font-weight: 500;
+#submit{
+    border: solid black 1px;
+    margin-right: 10px;
+    background-color: black;
+    color: aliceblue;
+}
+.dark{
+    padding-top: 10px;
+    text-align: right;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
 }
 #tel_container{
-    margin-top: 20px;
-    margin-right: 20px;
+    margin-top: 10px;
     font-weight: 500;
-    text-align: right;
 }
 #menu{
     display: flex;
@@ -108,8 +115,10 @@ li{
     padding-left: 20%;
     padding-right: 20%;
     background-color:#e3f2fd;
+    display: block;
 }
 #education ,#experience {
    font-weight: 800;
    font-size: 20px;
+   display: block;
 }
