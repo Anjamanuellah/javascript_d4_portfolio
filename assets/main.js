@@ -1,6 +1,6 @@
 var profil1 = {
     image : "cat.png",
-    tel : "0343650241",  
+    tel : "034 36 502 41",  
     poste : "Developpeur Web",
     name : "Anja RABEMANANJARA",
     bouton : "My Portfolio",
@@ -51,31 +51,15 @@ firsteducationClass.innerHTML= profil3.firsteducation;
 secondeducationClass.innerHTML = profil3.secondeducation;
 fisrtexperienceClass.innerHTML = profil3.fisrtexperience;
 secondexperienceClass.innerHTML = profil3.secondexperience;
-/*
-$(document).ready(function() {
-    $('#submit').click(function(){
-        $(this).val('ligth mode')
-    })
-})
-*/
-/*
-function changeText() {
-    let element = document.getElementById("submit");
-    if(element.value == 'dark mode')
-    element.value = 'ligth mode';
-    else
-    element.value = 'dark mode'
-}
-*/
+
 function myFunction() {
     let element = document.getElementById("btn");
-    console.log(element.innerText);
     if (element.innerText=="Dark mode") 
         element.innerText = "Ligth mode";
     else 
         element.innerText = "Dark mode";
     var body = document.body;
     body.classList.toggle("dark-mode");
-    $(".container3").toggleClass('dark-mode');
     $(".container1").toggleClass('dark-mode'); 
+    $(".container3").toggleClass('dark-mode'); 
 }

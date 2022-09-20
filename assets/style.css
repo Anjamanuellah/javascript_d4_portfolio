@@ -18,7 +18,7 @@
     text-align: right;
 }
 .dark-mode {
-    background-color: black;
+    background-color: black !important;
     color: white;
 }
 #tel_container{
